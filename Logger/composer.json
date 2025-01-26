@@ -1,0 +1,20 @@
+{
+    "name": "muthukumaranm/logger",
+    "autoload": {
+        "psr-4": {
+            "Muthukumaranm\\Session\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "muthukumaran-muthiah",
+            "email": "120544258+muthukumaran-muthiah@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0"
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public"
+    }
+}

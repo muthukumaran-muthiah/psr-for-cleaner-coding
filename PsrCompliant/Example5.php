@@ -1,5 +1,6 @@
 <?php
-class MyClass {
+namespace Org\Module\PsrCompliant;
+class Example5 {
     public function myMethod() {
         // ...code...
     }
