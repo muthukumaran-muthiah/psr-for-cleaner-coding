@@ -43,7 +43,7 @@ Namespaces and classes MUST follow an "autoloading" PSR: [PSR-0, PSR-4].
 This means each class is in a file by itself, and is in a namespace of at least one level: a top-level vendor name.
 
 Class names MUST be declared in StudlyCaps.
-
+<!-- \<NamespaceName>(\<SubNamespaceNames>)*\<ClassName> -->
 
 # Class Constants, Properties, and Methods
 
@@ -68,3 +68,26 @@ Method names MUST be declared in camelCase().
 
 ### Example
 example5.php...Example5.php
+
+PSR: Logger Interface
+
+The `LoggerInterface` exposes eight methods to write logs to the eight RFC 5424 levels (debug, info, notice, warning, error, critical, alert, emergency).
+
+## Methods
+
+- `emergency(string $message, array $context = array())`: System is unusable.
+- `alert(string $message, array $context = array())`: Action must be taken immediately.
+- `critical(string $message, array $context = array())`: Critical conditions.
+- `error(string $message, array $context = array())`: Error conditions.
+- `warning(string $message, array $context = array())`: Warning conditions.
+- `notice(string $message, array $context = array())`: Normal but significant condition.
+- `info(string $message, array $context = array())`: Informational messages.
+- `debug(string $message, array $context = array())`: Debug-level messages.
+
+### Example
+Logger/
+
+
+Coding style:
+
+COdingStyle.php

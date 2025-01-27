@@ -1,0 +1,21 @@
+List of docblock tags:
+- @param
+- @return
+- @throws
+- @var
+- @deprecated
+- @see
+- @since
+- @author
+- @version
+- @license
+- @link
+- @package
+- @subpackage
+- @category
+- @property
+- @method
+- @example
+- @todo
+- @deprecated
+
